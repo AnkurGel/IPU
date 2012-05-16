@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>IPU B.Tech Notices and Results | Ankur Goel</title>
+    </head>
+    <body>
+        <a name="res"></a>
+        <center><h3>Guru Gobind Singh etc etc</h3></center>
+        <table border=2 width=650 align=center cellpadding=2>
+            <tr bgcolor="#eeeeee"><center><b>RESULTS OF B.Tech</b></center></tr>
+            <tr bgcolor="#eeeeee"><th>&nbsp;</th><th align="center"><b>Title/Heading</th>
+                    <th align="center">Category</th><th align="center">Format</th><th>Uploaded On: </th></tr></b>
+            <!-- Some iterations--!>
+            <%@results.each do |x|%>
+                <%="<tr>"+x+"</tr>"%>
+            <%end%>
+        </table>
+        <pre>
+
+
+
+        </pre>
+        <a href="#res">See results</a><a name="bottom"></a>
+        <table border=2 width=650 align=center cellpadding=2>
+            <tr bgcolor="#eeeeee"><center><b>DATESHEETS FOR B.Tech</b></center></tr>
+            <tr bgcolor="#eeeeee"> <th>&nbsp;</th><th align="center"><b>Title/Heading</th>
+                    <th align="center">Format</th><th align="center">Uploaded on:</th></tr></b>
+            <!-- Some iterations--!>
+            <%@datesheets.each do |res|%>
+                <%="<tr>"+res+"</tr>"%>
+            <%end%>
+
+        </table>
+    </body>
+</html>
