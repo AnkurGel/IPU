@@ -1,2 +1,2 @@
-%w(sinatra ./run).each {|x| require x}
+require './run'
 run Sinatra::Application
