@@ -1,4 +1,5 @@
 source 'http://rubygems.org'
 #gem 'rubygems'
 gem 'sinatra'
+gem 'nokogiri'
 #gem 'open-uri'
